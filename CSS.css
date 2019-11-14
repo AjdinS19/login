@@ -1,0 +1,37 @@
+body{
+	background-image: linear-gradient(rgba(20, 60, 200 ,75), dodgerblue);
+}
+#okolo {
+
+	margin: 100px auto;
+	font-weight: bold;
+	box-shadow: 0 0 40px;
+	width: 100%;
+	overflow: hidden;
+	height: 200px;
+}
+#jedan {
+	width: 50%;
+	height: 200px;
+	float: left;
+	background-image: linear-gradient(red, purple);
+	color: white;
+}
+#dva {
+	width: 50%;
+	height: 200px;
+	float: right;
+	background-image: linear-gradient(red, purple);
+	color: white;
+}
+#center{
+	box-shadow: 0 0 50px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	background-image: radial-gradient(red, purple);
+	height: 100%;
+}
+#header{
+	text-align: center;
+	color: white;
+}
